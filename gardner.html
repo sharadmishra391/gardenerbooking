@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="gardner.css" />
+  </head>
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+  <body>
+     <nav>
+      <a href="index.html" style="text-decoration: none;">
+        <h2 style="color: green; margin-left: 30px">Happy garden</h2>
+      </a>
+      <ul>
+       <a href="index.html#home" style="text-decoration: none; color: black;"><li>Home</li></a>
+        <a href="index.html#about" style="text-decoration: none; color: black;"><li>About</li></a>
+        <a href="index.html#service" style="text-decoration: none; color: black;"> <li>Service</li></a>
+      </ul>
+    </nav>
+    <!-------------------------------navbar------->
+    <div class="formbody">
+
+       <div class="container">
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressBarFill"></div>
+      </div>
+      <form id="multiStepForm">
+        <div class="form-step form-step-active">
+          
+          <h2>What kind of property is this for?</h2>
+          
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="q1" value="Communal Garden" required /> Communal Garden
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q1" value="Office or Commercial Garden" /> Office or Commercial Garden
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q1" value="Public " /> Public
+            </label>
+            <br>
+             <label>
+              <input type="radio" name="q1" value="Residential " /> Residential
+            </label>
+
+          </div>
+          <button type="button" class="next-button">Next</button>
+        </div>
+        <div class="form-step">
+          <h2>How often do you need gardening services?</h2>
+      
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="q2" value="Daily" required /> Daily
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="Weekly" /> Weekly
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="Every other week" /> Every other week
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="Monthly" /> Monthly
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q2" value="As needed" /> As Needed
+            </label>
+          </div>
+          <button type="button" class="back-button">Back</button>
+          <button type="button" class="next-button">Next</button>
+        </div>
+         <div class="form-step">
+          <h2>Do you need plants purchasing?</h2>
+      
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="q3" value="Yes - I would like the pro to help me buy plants" required />Yes - I would like the pro to help me buy plants
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q3" value="No - I will buy the plants" /> No - I will buy the plants
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q3" value="No - I don't need plants" /> No - I don't need plants
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q3" value="I need to discuss with the pro" /> I need to discuss with the pro
+            </label>
+            <br>
+        
+          </div>
+          <button type="button" class="back-button">Back</button>
+          <button type="button" class="next-button">Next</button>
+        </div>
+          <div class="form-step">
+          <h2>Which of the following do you require?</h2>
+      
+          <div class="radio-group">
+            <label>
+              <input type="checkbox" name="q4" value="Hedge cutting/trimming" required />Hedge cutting/trimming me buy plants
+            </label>
+            <br>
+             <label>
+              <input type="checkbox" name="q4" value="Leaf clean up" required />Leaf clean up
+            </label>
+            <br>
+             <label>
+              <input type="checkbox" name="q4" value="Mowing/Grass cutting" required />Mowing/Grass cutting
+            </label>
+            <br>
+             <label>
+              <input type="checkbox" name="q4" value="Planting and seeding" required />Planting and seeding
+            </label>
+            <br>
+             <label>
+              <input type="checkbox" name="q4" value="Weeding and weed prevention" required />Weeding and weed prevention
+            </label>
+            <br>
+             <label>
+              <input type="checkbox" name="q4" value="Trimming and edging" required />Trimming and edging
+            </label>
+            <br>
+           
+        
+          </div>
+          <button type="button" class="back-button">Back</button>
+          <button type="button" class="next-button">Next</button>
+        </div>
+        <div class="form-step">
+          <h2>How big is your garden?</h2>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="q5" value="Small - less than 250 sq. ft." required /> Small - less than 250 sq. ft.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q5" value="Medium - 250 - 1000 sq. ft." /> Medium - 250 - 1000 sq. ft.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q5" value="Large - more than 1000 sq. ft." /> Large - more than 1000 sq. ft.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q5" value="I don't know" /> I don't know
+            </label>
+          </div>
+          <button type="button" class="back-button">Back</button>
+           <button type="button" class="next-button">Next</button>
+          
+        </div>
+         <div class="form-step">
+          <h2>When do you want the work to begin?</h2>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="q6" value="As soon as possible" required /> As soon as possible
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q6" value="In the next few days" /> In the next few days
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q6" value="In the next few weeks" /> In the next few weeks
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="q6" value="In next few months" />In next few months
+            </label>
+          </div>
+          <button type="button" class="back-button">Back</button>
+           
+          <button type="submit" class="submit-button">Submit</button>
+        </div>
+      </form>
+    </div>
+
+
+
+    </div>
+   
+    
+
+    <script src="gardner.js"></script>
+  </body>
+</html>
